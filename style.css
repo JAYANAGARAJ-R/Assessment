@@ -1,0 +1,73 @@
+/* style.css */
+
+/* Container */
+body {
+    background-color: rgb(176, 220, 145);
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Search input */
+#searchInput {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Table */
+#dataTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table header */
+#dataTable th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table body */
+#dataTable td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+/* Alternate row color */
+#dataTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Add Row button */
+#addRowBtn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Add Row button hover effect */
+#addRowBtn:hover {
+    background-color: #0056b3;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: #0383f2;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+/* Delete button hover effect */
+.delete-btn:hover {
+    background-color: #c82333;
+}
